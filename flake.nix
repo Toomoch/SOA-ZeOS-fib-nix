@@ -8,7 +8,7 @@
 
     
 
-    packages.x86_64-linux.bochs_nogdb =
+    packages.x86_64-linux.default =
       with import nixpkgs { system = "x86_64-linux"; };
 
       stdenv.mkDerivation {
